@@ -1,0 +1,82 @@
+/* ベースのスタイル設定 */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* ヘッダーの装飾 */
+header {
+    background: #2c3e50;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #3498db 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* ナビゲーションメニューのレイアウト */
+header nav ul {
+    padding: 0;
+    list-style: none;
+    background: #1a252f;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    padding: 10px 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* メインコンテンツの幅と余白設定 */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* 各セクションのカード風デザイン */
+section {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+/* フッターの装飾 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: #ffffff;
+    margin-top: 20px;
+}
